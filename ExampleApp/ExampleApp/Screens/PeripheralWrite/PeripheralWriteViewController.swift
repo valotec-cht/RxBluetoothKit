@@ -1,5 +1,5 @@
 import CoreBluetooth
-import RxBluetoothKit
+import RxBluetoothKit_Airthings
 import RxSwift
 import UIKit
 
