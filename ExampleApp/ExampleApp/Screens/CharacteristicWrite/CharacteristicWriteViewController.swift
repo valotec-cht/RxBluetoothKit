@@ -1,4 +1,4 @@
-import RxBluetoothKit
+import RxBluetoothKit_Airthings
 import UIKit
 
 class CharacteristicWriteViewController: UIViewController {
