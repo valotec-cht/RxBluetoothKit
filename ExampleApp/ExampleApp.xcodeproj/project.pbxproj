@@ -42,7 +42,7 @@
 		8DB15AAF253D93A800DECF92 /* PeripheralUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB15AAE253D93A800DECF92 /* PeripheralUpdateView.swift */; };
 		8DF924BB254ADE2C0027627D /* BluetoothProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF924BA254ADE2C0027627D /* BluetoothProvider.swift */; };
 		8DF924C3254AE4F40027627D /* Error+Printable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF924C2254AE4F40027627D /* Error+Printable.swift */; };
-		D352463A29B76C130000D472 /* RxBluetoothKit_Airthings in Frameworks */ = {isa = PBXBuildFile; productRef = D352463929B76C130000D472 /* RxBluetoothKit_Airthings */; };
+		D3EAD5022A374639004DF276 /* RxBluetoothKit_Airthings in Frameworks */ = {isa = PBXBuildFile; productRef = D3EAD5012A374639004DF276 /* RxBluetoothKit_Airthings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D352463A29B76C130000D472 /* RxBluetoothKit_Airthings in Frameworks */,
+				D3EAD5022A374639004DF276 /* RxBluetoothKit_Airthings in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +319,7 @@
 			);
 			name = ExampleApp;
 			packageProductDependencies = (
-				D352463929B76C130000D472 /* RxBluetoothKit_Airthings */,
+				D3EAD5012A374639004DF276 /* RxBluetoothKit_Airthings */,
 			);
 			productName = ExampleApp;
 			productReference = 8DA476A225399CFA00B79A0A /* ExampleApp.app */;
@@ -349,7 +349,7 @@
 			);
 			mainGroup = 8DA4769925399CFA00B79A0A;
 			packageReferences = (
-				D352463829B76C130000D472 /* XCRemoteSwiftPackageReference "RxBluetoothKit" */,
+				D3EAD5002A374639004DF276 /* XCRemoteSwiftPackageReference "RxBluetoothKit" */,
 			);
 			productRefGroup = 8DA476A325399CFA00B79A0A /* Products */;
 			projectDirPath = "";
@@ -619,20 +619,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D352463829B76C130000D472 /* XCRemoteSwiftPackageReference "RxBluetoothKit" */ = {
+		D3EAD5002A374639004DF276 /* XCRemoteSwiftPackageReference "RxBluetoothKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Airthings/RxBluetoothKit.git";
 			requirement = {
-				kind = revision;
-				revision = ea785fa487d77d872da17c0f60071dce2bdaaaf7;
+				branch = "update-rxswift-to-6.5";
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D352463929B76C130000D472 /* RxBluetoothKit_Airthings */ = {
+		D3EAD5012A374639004DF276 /* RxBluetoothKit_Airthings */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D352463829B76C130000D472 /* XCRemoteSwiftPackageReference "RxBluetoothKit" */;
+			package = D3EAD5002A374639004DF276 /* XCRemoteSwiftPackageReference "RxBluetoothKit" */;
 			productName = RxBluetoothKit_Airthings;
 		};
 /* End XCSwiftPackageProductDependency section */
