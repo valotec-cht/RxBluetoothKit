@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Airthings/RxBluetoothKit.git",
       "state" : {
-        "branch" : "update-rxswift-to-6.5",
-        "revision" : "2e08851a1bcd6307dba143551f0b0c1a200812e8"
+        "branch" : "master",
+        "revision" : "d974f132ff6b8c845913d9a01c2a5f14ac353001"
       }
     },
     {

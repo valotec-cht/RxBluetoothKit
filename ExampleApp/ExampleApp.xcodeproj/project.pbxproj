@@ -623,7 +623,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Airthings/RxBluetoothKit.git";
 			requirement = {
-				branch = "update-rxswift-to-6.5";
+				branch = master;
 				kind = branch;
 			};
 		};
