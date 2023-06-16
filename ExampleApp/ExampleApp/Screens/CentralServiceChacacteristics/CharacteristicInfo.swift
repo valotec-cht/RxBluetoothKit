@@ -1,4 +1,4 @@
-import RxBluetoothKit
+import RxBluetoothKit_Airthings
 import CoreBluetooth
 
 struct CharacteristicInfo: Identifiable, Equatable {
