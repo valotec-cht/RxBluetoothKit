@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0A7B27F21F9F190F003F950E"
-               BuildableName = "RxBluetoothKit.framework"
+               BuildableName = "RxBluetoothKit_Airthings.framework"
                BlueprintName = "RxBluetoothKit_Airthings tvOS"
                ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
             </BuildableReference>
@@ -31,7 +31,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A7B27F21F9F190F003F950E"
-            BuildableName = "RxBluetoothKit.framework"
+            BuildableName = "RxBluetoothKit_Airthings.framework"
             BlueprintName = "RxBluetoothKit_Airthings tvOS"
             ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
          </BuildableReference>
@@ -63,7 +63,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A7B27F21F9F190F003F950E"
-            BuildableName = "RxBluetoothKit.framework"
+            BuildableName = "RxBluetoothKit_Airthings.framework"
             BlueprintName = "RxBluetoothKit_Airthings tvOS"
             ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
          </BuildableReference>
@@ -79,7 +79,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A7B27F21F9F190F003F950E"
-            BuildableName = "RxBluetoothKit.framework"
+            BuildableName = "RxBluetoothKit_Airthings.framework"
             BlueprintName = "RxBluetoothKit_Airthings tvOS"
             ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
          </BuildableReference>
