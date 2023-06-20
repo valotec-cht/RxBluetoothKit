@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A7B27C61F9F1682003F950E"
-               BuildableName = "RxBluetoothKit_Airthings.framework"
+               BlueprintIdentifier = "D33F324D2A41CA8A00DBDD0B"
+               BuildableName = "RxBluetoothKit_Airthings_watchOS.framework"
                BlueprintName = "RxBluetoothKit_Airthings watchOS"
                ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
             </BuildableReference>
@@ -43,8 +43,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A7B27C61F9F1682003F950E"
-            BuildableName = "RxBluetoothKit_Airthings.framework"
+            BlueprintIdentifier = "D33F324D2A41CA8A00DBDD0B"
+            BuildableName = "RxBluetoothKit_Airthings_watchOS.framework"
             BlueprintName = "RxBluetoothKit_Airthings watchOS"
             ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
          </BuildableReference>
@@ -59,8 +59,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A7B27C61F9F1682003F950E"
-            BuildableName = "RxBluetoothKit_Airthings.framework"
+            BlueprintIdentifier = "D33F324D2A41CA8A00DBDD0B"
+            BuildableName = "RxBluetoothKit_Airthings_watchOS.framework"
             BlueprintName = "RxBluetoothKit_Airthings watchOS"
             ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
          </BuildableReference>

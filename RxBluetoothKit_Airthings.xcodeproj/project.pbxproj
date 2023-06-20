@@ -9,27 +9,8 @@
 /* Begin PBXBuildFile section */
 		0A339D741FA1C0ED008385C8 /* CBPeripheralDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3311F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift */; };
 		0A339D751FA1C10A008385C8 /* CBCentralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3341F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift */; };
-		0A339D761FA1C10B008385C8 /* CBCentralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3341F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift */; };
-		0A339D771FA1C10D008385C8 /* CBPeripheralDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3311F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift */; };
-		0A7B27D51F9F176D003F950E /* CentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C0E1CBE3DEE005DEA5B /* CentralManager.swift */; };
-		0A7B27D61F9F176D003F950E /* AdvertisementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C0C1CBE3DEE005DEA5B /* AdvertisementData.swift */; };
-		0A7B27D71F9F176D003F950E /* BluetoothState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EF38C81D86EE1F00F9F468 /* BluetoothState.swift */; };
-		0A7B27D91F9F1771003F950E /* Unimplemented.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C241CBE3DEE005DEA5B /* Unimplemented.swift */; };
-		0A7B27DA1F9F1771003F950E /* Observable+Absorb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C131CBE3DEE005DEA5B /* Observable+Absorb.swift */; };
-		0A7B27DB1F9F1771003F950E /* Boxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C0F1CBE3DEE005DEA5B /* Boxes.swift */; };
-		0A7B27DC1F9F1771003F950E /* BluetoothError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C0D1CBE3DEE005DEA5B /* BluetoothError.swift */; };
-		0A7B27DD1F9F1771003F950E /* UUIDIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA947A3A1EB1C41C000ED0B1 /* UUIDIdentifiable.swift */; };
-		0A7B27DE1F9F1771003F950E /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B16841ED417AA006D5996 /* Logging.swift */; };
-		0A7B27E11F9F1773003F950E /* Characteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C101CBE3DEE005DEA5B /* Characteristic.swift */; };
-		0A7B27E31F9F1776003F950E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C231CBE3DEE005DEA5B /* Service.swift */; };
-		0A7B27E61F9F177A003F950E /* ScannedPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C211CBE3DEE005DEA5B /* ScannedPeripheral.swift */; };
-		0A7B27E71F9F177A003F950E /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C161CBE3DEE005DEA5B /* Peripheral.swift */; };
-		0A7B27E91F9F177A003F950E /* DeviceIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26509A761CC1270100EBA319 /* DeviceIdentifiers.swift */; };
-		0A7B27EA1F9F177A003F950E /* Peripheral+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26509A781CC1275E00EBA319 /* Peripheral+Convenience.swift */; };
-		0A7B27ED1F9F177C003F950E /* Descriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C121CBE3DEE005DEA5B /* Descriptor.swift */; };
 		0A7B27FC1F9F190F003F950E /* RxBluetoothKit_Airthings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7B27F31F9F190F003F950E /* RxBluetoothKit_Airthings.framework */; };
 		0A7B28141F9F1964003F950E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2666FD0B1CCE431B005E81CE /* Utilities.swift */; };
-		0A7B28151F9F1AE1003F950E /* RxBluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2666FCEE1CCE42A5005E81CE /* RxBluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A7B281B1F9F1B21003F950E /* Descriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C121CBE3DEE005DEA5B /* Descriptor.swift */; };
 		0A7B281D1F9F1B25003F950E /* ScannedPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C211CBE3DEE005DEA5B /* ScannedPeripheral.swift */; };
 		0A7B281E1F9F1B25003F950E /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C161CBE3DEE005DEA5B /* Peripheral.swift */; };
@@ -108,14 +89,12 @@
 		1D6474E42022F83100A1029F /* ThreadSafeBoxTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6474E12022F83100A1029F /* ThreadSafeBoxTest.swift */; };
 		1D6E36C820A07057009900A6 /* ManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E36C720A07057009900A6 /* ManagerType.swift */; };
 		1D6E36C920A07057009900A6 /* ManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E36C720A07057009900A6 /* ManagerType.swift */; };
-		1D6E36CA20A07057009900A6 /* ManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E36C720A07057009900A6 /* ManagerType.swift */; };
 		1D6E36CB20A07057009900A6 /* ManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E36C720A07057009900A6 /* ManagerType.swift */; };
 		1D6E36D120A07849009900A6 /* _ManagerType.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E36CC20A07745009900A6 /* _ManagerType.generated.swift */; };
 		1D6E36D220A07849009900A6 /* _ManagerType.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E36CC20A07745009900A6 /* _ManagerType.generated.swift */; };
 		1D6E36D320A0784A009900A6 /* _ManagerType.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6E36CC20A07745009900A6 /* _ManagerType.generated.swift */; };
 		1D73E83820A3289B009167AA /* StartAdvertisingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E83720A3289B009167AA /* StartAdvertisingResult.swift */; };
 		1D73E83920A3289B009167AA /* StartAdvertisingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E83720A3289B009167AA /* StartAdvertisingResult.swift */; };
-		1D73E83A20A3289B009167AA /* StartAdvertisingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E83720A3289B009167AA /* StartAdvertisingResult.swift */; };
 		1D73E83B20A3289B009167AA /* StartAdvertisingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E83720A3289B009167AA /* StartAdvertisingResult.swift */; };
 		1D73E84120A32CC3009167AA /* _PeripheralManager.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E83C20A32C98009167AA /* _PeripheralManager.generated.swift */; };
 		1D73E84220A32CC5009167AA /* _PeripheralManager.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E83C20A32C98009167AA /* _PeripheralManager.generated.swift */; };
@@ -127,9 +106,7 @@
 		1D73E84C20A32D26009167AA /* BasePeripheralManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E84920A32D26009167AA /* BasePeripheralManagerTest.swift */; };
 		1D73E84F20A43033009167AA /* CBCentral+Uuid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E84E20A43033009167AA /* CBCentral+Uuid.swift */; };
 		1D73E85020A43033009167AA /* CBCentral+Uuid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E84E20A43033009167AA /* CBCentral+Uuid.swift */; };
-		1D73E85120A43033009167AA /* CBCentral+Uuid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E84E20A43033009167AA /* CBCentral+Uuid.swift */; };
 		1D73E85220A43033009167AA /* CBCentral+Uuid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E84E20A43033009167AA /* CBCentral+Uuid.swift */; };
-		1D73E85320A431F0009167AA /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA3453720A07FA800F7D629 /* PeripheralManager.swift */; };
 		1D73E85420A43338009167AA /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA3453720A07FA800F7D629 /* PeripheralManager.swift */; };
 		1D73E85620A434B0009167AA /* PeripheralManager+RestoredState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73E85520A434B0009167AA /* PeripheralManager+RestoredState.swift */; };
 		1D8116C81FFE0F1700147BF5 /* Mock.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8116C71FFE0F1700147BF5 /* Mock.generated.swift */; };
@@ -137,28 +114,23 @@
 		1D8116CA1FFE0F1700147BF5 /* Mock.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8116C71FFE0F1700147BF5 /* Mock.generated.swift */; };
 		1D9C509B202064CC006B21E4 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C509A202064CC006B21E4 /* Array+Utils.swift */; };
 		1D9C509C202064CC006B21E4 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C509A202064CC006B21E4 /* Array+Utils.swift */; };
-		1D9C509D202064CC006B21E4 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C509A202064CC006B21E4 /* Array+Utils.swift */; };
 		1D9C509E202064CC006B21E4 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C509A202064CC006B21E4 /* Array+Utils.swift */; };
 		1D9C50AF2021CC70006B21E4 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C50AE2021CC70006B21E4 /* Connector.swift */; };
 		1D9C50B02021CC70006B21E4 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C50AE2021CC70006B21E4 /* Connector.swift */; };
-		1D9C50B12021CC70006B21E4 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C50AE2021CC70006B21E4 /* Connector.swift */; };
 		1D9C50B22021CC70006B21E4 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9C50AE2021CC70006B21E4 /* Connector.swift */; };
 		1DA3453820A07FA800F7D629 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA3453720A07FA800F7D629 /* PeripheralManager.swift */; };
 		1DA3453920A07FA800F7D629 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA3453720A07FA800F7D629 /* PeripheralManager.swift */; };
 		1DA3453D20A0819400F7D629 /* CBPeripheralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA3453C20A0819400F7D629 /* CBPeripheralManagerDelegateWrapper.swift */; };
 		1DA3453E20A0819400F7D629 /* CBPeripheralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA3453C20A0819400F7D629 /* CBPeripheralManagerDelegateWrapper.swift */; };
-		1DA3453F20A0819400F7D629 /* CBPeripheralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA3453C20A0819400F7D629 /* CBPeripheralManagerDelegateWrapper.swift */; };
 		1DA3454020A0819400F7D629 /* CBPeripheralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA3453C20A0819400F7D629 /* CBPeripheralManagerDelegateWrapper.swift */; };
 		1DAAB03920245F260023BAC0 /* _PeripheralProvider.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAB03420245F150023BAC0 /* _PeripheralProvider.generated.swift */; };
 		1DAAB03A20245F280023BAC0 /* _PeripheralProvider.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAB03420245F150023BAC0 /* _PeripheralProvider.generated.swift */; };
 		1DAAB03B20245F2A0023BAC0 /* _PeripheralProvider.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAB03420245F150023BAC0 /* _PeripheralProvider.generated.swift */; };
 		1DAAB03D2024673A0023BAC0 /* CharacteristicNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAB03C2024673A0023BAC0 /* CharacteristicNotificationManager.swift */; };
 		1DAAB03E2024673A0023BAC0 /* CharacteristicNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAB03C2024673A0023BAC0 /* CharacteristicNotificationManager.swift */; };
-		1DAAB03F2024673A0023BAC0 /* CharacteristicNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAB03C2024673A0023BAC0 /* CharacteristicNotificationManager.swift */; };
 		1DAAB0402024673A0023BAC0 /* CharacteristicNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAB03C2024673A0023BAC0 /* CharacteristicNotificationManager.swift */; };
 		1DC4233F20078315009994B1 /* CBPeripheral+Uuid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC4233E20078315009994B1 /* CBPeripheral+Uuid.swift */; };
 		1DC4234020078315009994B1 /* CBPeripheral+Uuid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC4233E20078315009994B1 /* CBPeripheral+Uuid.swift */; };
-		1DC4234120078315009994B1 /* CBPeripheral+Uuid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC4233E20078315009994B1 /* CBPeripheral+Uuid.swift */; };
 		1DC4234220078315009994B1 /* CBPeripheral+Uuid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC4233E20078315009994B1 /* CBPeripheral+Uuid.swift */; };
 		1DC423452008F0EF009994B1 /* PeripheralProviderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC423442008F0EF009994B1 /* PeripheralProviderTest.swift */; };
 		1DC423462008F0EF009994B1 /* PeripheralProviderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC423442008F0EF009994B1 /* PeripheralProviderTest.swift */; };
@@ -206,7 +178,6 @@
 		26EF38C91D86EE1F00F9F468 /* BluetoothState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EF38C81D86EE1F00F9F468 /* BluetoothState.swift */; };
 		26F3034B1CF0D49D00D74EBF /* RestoredState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F3034A1CF0D49D00D74EBF /* RestoredState.swift */; };
 		37B642B5C45841BEDB86D35E /* PeripheralProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B640815FBEE0ED984973DF /* PeripheralProvider.swift */; };
-		37B645F7C86ECC95C20EB188 /* PeripheralProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B640815FBEE0ED984973DF /* PeripheralProvider.swift */; };
 		37B649D72EF8C7867D811C8F /* PeripheralProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B640815FBEE0ED984973DF /* PeripheralProvider.swift */; };
 		37B64DBDA4A3B78934028507 /* PeripheralProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B640815FBEE0ED984973DF /* PeripheralProvider.swift */; };
 		4C2DDDF8203C5F10006F48C6 /* ObservableTest+Absorb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2DDDF6203C5E61006F48C6 /* ObservableTest+Absorb.swift */; };
@@ -257,7 +228,10 @@
 		BB2FF3331F9EAF1600A12E10 /* CBPeripheralDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3311F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift */; };
 		BB2FF3351F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3341F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift */; };
 		BB2FF3361F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2FF3341F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift */; };
-		D3B731782A41BAA500A69BBC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B731772A41BAA500A69BBC /* RxSwift.framework */; };
+		D33F32432A41C76000DBDD0B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B731772A41BAA500A69BBC /* RxSwift.framework */; };
+		D33F32512A41CA8B00DBDD0B /* RxBluetoothKit_Airthings_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D33F32502A41CA8B00DBDD0B /* RxBluetoothKit_Airthings_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D33F32552A41CAB800DBDD0B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7317E2A41BDE700A69BBC /* RxSwift.framework */; };
+		D33F32562A41CAB800DBDD0B /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3B7317E2A41BDE700A69BBC /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D3C8B7B929B7521C00BC85DC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FE5A1CCE65CD005E81CE /* RxSwift.framework */; };
 		D3C8B7BA29B7521C00BC85DC /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FE5A1CCE65CD005E81CE /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D74B16851ED417AA006D5996 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B16841ED417AA006D5996 /* Logging.swift */; };
@@ -266,11 +240,9 @@
 		FA947A3C1EB1C42F000ED0B1 /* UUIDIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA947A3A1EB1C41C000ED0B1 /* UUIDIdentifiable.swift */; };
 		FDA404272294386300386BB8 /* RxBluetoothKitLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA404262294386300386BB8 /* RxBluetoothKitLogger.swift */; };
 		FDA404282294532D00386BB8 /* RxBluetoothKitLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA404262294386300386BB8 /* RxBluetoothKitLogger.swift */; };
-		FDA404292294532E00386BB8 /* RxBluetoothKitLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA404262294386300386BB8 /* RxBluetoothKitLogger.swift */; };
 		FDA4042A2294532F00386BB8 /* RxBluetoothKitLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA404262294386300386BB8 /* RxBluetoothKitLogger.swift */; };
 		FDC43FB222AFED1700995355 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC43FB122AFED1700995355 /* Logger.swift */; };
 		FDC43FB322AFED1700995355 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC43FB122AFED1700995355 /* Logger.swift */; };
-		FDC43FB422AFED1700995355 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC43FB122AFED1700995355 /* Logger.swift */; };
 		FDC43FB522AFED1700995355 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC43FB122AFED1700995355 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
@@ -318,6 +290,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D33F32572A41CAB800DBDD0B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D33F32562A41CAB800DBDD0B /* RxSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D3C8B7BB29B7521C00BC85DC /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,7 +317,6 @@
 /* Begin PBXFileReference section */
 		0A20F00F1DB4C01C00A1A805 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/Mac/RxTest.framework; sourceTree = SOURCE_ROOT; };
 		0A20F0111DB4C02B00A1A805 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = SOURCE_ROOT; };
-		0A7B27C71F9F1682003F950E /* RxBluetoothKit_Airthings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit_Airthings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7B27F31F9F190F003F950E /* RxBluetoothKit_Airthings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit_Airthings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7B27FB1F9F190F003F950E /* RxBluetoothKit_Airthings tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxBluetoothKit_Airthings tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7B28371F9F1C3C003F950E /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/tvOS/RxTest.framework; sourceTree = SOURCE_ROOT; };
@@ -429,6 +411,8 @@
 		A1299C241CBE3DEE005DEA5B /* Unimplemented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unimplemented.swift; sourceTree = "<group>"; };
 		BB2FF3311F9EAD5300A12E10 /* CBPeripheralDelegateWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBPeripheralDelegateWrapper.swift; sourceTree = "<group>"; };
 		BB2FF3341F9EAF2B00A12E10 /* CBCentralManagerDelegateWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCentralManagerDelegateWrapper.swift; sourceTree = "<group>"; };
+		D33F324E2A41CA8A00DBDD0B /* RxBluetoothKit_Airthings_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit_Airthings_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33F32502A41CA8B00DBDD0B /* RxBluetoothKit_Airthings_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxBluetoothKit_Airthings_watchOS.h; sourceTree = "<group>"; };
 		D3B731772A41BAA500A69BBC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "Carthage/Build/RxSwift.xcframework/tvos-arm64/RxSwift.framework"; sourceTree = SOURCE_ROOT; };
 		D3B7317E2A41BDE700A69BBC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "Carthage/Build/RxSwift.xcframework/watchos-arm64_32_armv7k/RxSwift.framework"; sourceTree = SOURCE_ROOT; };
 		D74B16841ED417AA006D5996 /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
@@ -438,18 +422,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A7B27C31F9F1682003F950E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0A7B27EF1F9F190F003F950E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3B731782A41BAA500A69BBC /* RxSwift.framework in Frameworks */,
+				D33F32432A41C76000DBDD0B /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +469,14 @@
 			files = (
 				2666FDAD1CCE4626005E81CE /* RxBluetoothKit_Airthings.framework in Frameworks */,
 				A10F29B01CDCD99900593284 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33F324B2A41CA8A00DBDD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33F32552A41CAB800DBDD0B /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,6 +778,7 @@
 				2666FCEC1CCE4295005E81CE /* Supporting Files */,
 				2666FCEB1CCE4194005E81CE /* Tests */,
 				A1299BD71CBE3D61005DEA5B /* Source */,
+				D33F324F2A41CA8B00DBDD0B /* RxBluetoothKit_Airthings watchOS */,
 				A1299C8D1CBE433B005DEA5B /* Frameworks */,
 				A1299BBE1CBE3D52005DEA5B /* Products */,
 			);
@@ -805,9 +791,9 @@
 				2666FD8D1CCE457C005E81CE /* RxBluetoothKit_Airthings iOSTests.xctest */,
 				2666FDA31CCE4626005E81CE /* RxBluetoothKit_Airthings.framework */,
 				2666FDAC1CCE4626005E81CE /* RxBluetoothKit_Airthings macOSTests.xctest */,
-				0A7B27C71F9F1682003F950E /* RxBluetoothKit_Airthings.framework */,
 				0A7B27F31F9F190F003F950E /* RxBluetoothKit_Airthings.framework */,
 				0A7B27FB1F9F190F003F950E /* RxBluetoothKit_Airthings tvOSTests.xctest */,
+				D33F324E2A41CA8A00DBDD0B /* RxBluetoothKit_Airthings_watchOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -840,17 +826,17 @@
 			path = RxBluetoothKit;
 			sourceTree = "<group>";
 		};
+		D33F324F2A41CA8B00DBDD0B /* RxBluetoothKit_Airthings watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				D33F32502A41CA8B00DBDD0B /* RxBluetoothKit_Airthings_watchOS.h */,
+			);
+			path = "RxBluetoothKit_Airthings watchOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0A7B27C41F9F1682003F950E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A7B28151F9F1AE1003F950E /* RxBluetoothKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0A7B27F01F9F190F003F950E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -881,28 +867,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D33F32492A41CA8A00DBDD0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33F32512A41CA8B00DBDD0B /* RxBluetoothKit_Airthings_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0A7B27C61F9F1682003F950E /* RxBluetoothKit_Airthings watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A7B27CE1F9F1682003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings watchOS" */;
-			buildPhases = (
-				0A7B27C21F9F1682003F950E /* Sources */,
-				0A7B27C31F9F1682003F950E /* Frameworks */,
-				0A7B27C41F9F1682003F950E /* Headers */,
-				0A7B27C51F9F1682003F950E /* Resources */,
-				1D1BC87E2003A32B004C5F36 /* Generate testable files script */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "RxBluetoothKit_Airthings watchOS";
-			productName = RxBluetoothKit;
-			productReference = 0A7B27C71F9F1682003F950E /* RxBluetoothKit_Airthings.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		0A7B27F21F9F190F003F950E /* RxBluetoothKit_Airthings tvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A7B28041F9F190F003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings tvOS" */;
@@ -1019,6 +994,25 @@
 			productReference = 2666FDAC1CCE4626005E81CE /* RxBluetoothKit_Airthings macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D33F324D2A41CA8A00DBDD0B /* RxBluetoothKit_Airthings watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33F32522A41CA8B00DBDD0B /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings watchOS" */;
+			buildPhases = (
+				D33F32492A41CA8A00DBDD0B /* Headers */,
+				D33F324A2A41CA8A00DBDD0B /* Sources */,
+				D33F324B2A41CA8A00DBDD0B /* Frameworks */,
+				D33F324C2A41CA8A00DBDD0B /* Resources */,
+				D33F32572A41CAB800DBDD0B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RxBluetoothKit_Airthings watchOS";
+			productName = "RxBluetoothKit_Airthings watchOS";
+			productReference = D33F324E2A41CA8A00DBDD0B /* RxBluetoothKit_Airthings_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1030,10 +1024,6 @@
 				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = Polidea;
 				TargetAttributes = {
-					0A7B27C61F9F1682003F950E = {
-						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
-					};
 					0A7B27F21F9F190F003F950E = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
@@ -1058,6 +1048,9 @@
 						CreatedOnToolsVersion = 7.3;
 						LastSwiftMigration = 0900;
 					};
+					D33F324D2A41CA8A00DBDD0B = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = A1299BB71CBE3D52005DEA5B /* Build configuration list for PBXProject "RxBluetoothKit_Airthings" */;
@@ -1077,21 +1070,14 @@
 				2666FD8C1CCE457C005E81CE /* RxBluetoothKit_Airthings iOSTests */,
 				2666FDA21CCE4626005E81CE /* RxBluetoothKit_Airthings macOS */,
 				2666FDAB1CCE4626005E81CE /* RxBluetoothKit_Airthings macOSTests */,
-				0A7B27C61F9F1682003F950E /* RxBluetoothKit_Airthings watchOS */,
 				0A7B27F21F9F190F003F950E /* RxBluetoothKit_Airthings tvOS */,
 				0A7B27FA1F9F190F003F950E /* RxBluetoothKit_Airthings tvOSTests */,
+				D33F324D2A41CA8A00DBDD0B /* RxBluetoothKit_Airthings watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A7B27C51F9F1682003F950E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0A7B27F11F9F190F003F950E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1134,6 +1120,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D33F324C2A41CA8A00DBDD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1152,20 +1145,6 @@
 			shellScript = "if which gsed >/dev/null; then\n./scripts/generate-testable.sh\nelse\necho \"warning: Cannot generate testable files, gsed required.\"\nfi\n";
 		};
 		1D1BC87D2003A31E004C5F36 /* Generate testable files script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate testable files script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which gsed >/dev/null; then\n./scripts/generate-testable.sh\nelse\necho \"warning: Cannot generate testable files, gsed required.\"\nfi";
-		};
-		1D1BC87E2003A32B004C5F36 /* Generate testable files script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1210,43 +1189,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A7B27C21F9F1682003F950E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A7B27E71F9F177A003F950E /* Peripheral.swift in Sources */,
-				0A7B27DE1F9F1771003F950E /* Logging.swift in Sources */,
-				0A7B27DB1F9F1771003F950E /* Boxes.swift in Sources */,
-				FDA404292294532E00386BB8 /* RxBluetoothKitLogger.swift in Sources */,
-				0A7B27E31F9F1776003F950E /* Service.swift in Sources */,
-				0A7B27DA1F9F1771003F950E /* Observable+Absorb.swift in Sources */,
-				1D73E85320A431F0009167AA /* PeripheralManager.swift in Sources */,
-				0A339D761FA1C10B008385C8 /* CBCentralManagerDelegateWrapper.swift in Sources */,
-				1D9C50B12021CC70006B21E4 /* Connector.swift in Sources */,
-				0A339D771FA1C10D008385C8 /* CBPeripheralDelegateWrapper.swift in Sources */,
-				0A7B27D51F9F176D003F950E /* CentralManager.swift in Sources */,
-				0A7B27E61F9F177A003F950E /* ScannedPeripheral.swift in Sources */,
-				1D6E36CA20A07057009900A6 /* ManagerType.swift in Sources */,
-				0A7B27DC1F9F1771003F950E /* BluetoothError.swift in Sources */,
-				0A7B27E11F9F1773003F950E /* Characteristic.swift in Sources */,
-				1D9C509D202064CC006B21E4 /* Array+Utils.swift in Sources */,
-				0A7B27E91F9F177A003F950E /* DeviceIdentifiers.swift in Sources */,
-				0A7B27D61F9F176D003F950E /* AdvertisementData.swift in Sources */,
-				0A7B27DD1F9F1771003F950E /* UUIDIdentifiable.swift in Sources */,
-				1D73E83A20A3289B009167AA /* StartAdvertisingResult.swift in Sources */,
-				1DC4234120078315009994B1 /* CBPeripheral+Uuid.swift in Sources */,
-				0A7B27ED1F9F177C003F950E /* Descriptor.swift in Sources */,
-				0A7B27D91F9F1771003F950E /* Unimplemented.swift in Sources */,
-				0A7B27D71F9F176D003F950E /* BluetoothState.swift in Sources */,
-				1D73E85120A43033009167AA /* CBCentral+Uuid.swift in Sources */,
-				FDC43FB422AFED1700995355 /* Logger.swift in Sources */,
-				1DAAB03F2024673A0023BAC0 /* CharacteristicNotificationManager.swift in Sources */,
-				0A7B27EA1F9F177A003F950E /* Peripheral+Convenience.swift in Sources */,
-				37B645F7C86ECC95C20EB188 /* PeripheralProvider.swift in Sources */,
-				1DA3453F20A0819400F7D629 /* CBPeripheralManagerDelegateWrapper.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0A7B27EE1F9F190F003F950E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1512,6 +1454,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D33F324A2A41CA8A00DBDD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1533,89 +1482,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A7B27CC1F9F1682003F950E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-					"$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework/watchos-arm64_32_armv7k",
-					"$(PROJECT_DIR)",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Source/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-watchOS";
-				PRODUCT_NAME = RxBluetoothKit_Airthings;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Debug;
-		};
-		0A7B27CD1F9F1682003F950E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/watchOS",
-					"$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework/watchos-arm64_32_armv7k",
-					"$(PROJECT_DIR)",
-				);
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = Source/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-watchOS";
-				PRODUCT_NAME = RxBluetoothKit_Airthings;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.0;
-			};
-			name = Release;
-		};
 		0A7B28051F9F190F003F950E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2119,18 +1985,93 @@
 			};
 			name = Release;
 		};
+		D33F32532A41CA8B00DBDD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TWJHTU8G4G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework/watchos-arm64_32_armv7k",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Polidea. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Airthings-ASA.RxBluetoothKit-Airthings-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		D33F32542A41CA8B00DBDD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TWJHTU8G4G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/RxSwift.xcframework/watchos-arm64_32_armv7k",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Polidea. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Airthings-ASA.RxBluetoothKit-Airthings-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A7B27CE1F9F1682003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0A7B27CC1F9F1682003F950E /* Debug */,
-				0A7B27CD1F9F1682003F950E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0A7B28041F9F190F003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2190,6 +2131,15 @@
 			buildConfigurations = (
 				A1299BCF1CBE3D52005DEA5B /* Debug */,
 				A1299BD01CBE3D52005DEA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33F32522A41CA8B00DBDD0B /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33F32532A41CA8B00DBDD0B /* Debug */,
+				D33F32542A41CA8B00DBDD0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
