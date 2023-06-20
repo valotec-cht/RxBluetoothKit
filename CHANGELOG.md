@@ -1,3 +1,6 @@
+# 6.2.0
+- Updated RxSwift to version 6.5
+
 # 6.1.0
 - Added support for iOS 15/Xcode 13.
 

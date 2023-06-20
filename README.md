@@ -72,19 +72,21 @@ Want to migrate from 4.x to 5.x? Check guidelines [here](https://github.com/Poli
 [CocoaPods](http://cocoapods.org) is a dependency manager for CocoaProjects.
 To integrate RxBluetoothKit into your Xcode project using CocoaPods specify it in your `Podfile`:
 ```ruby
-pod 'RxBluetoothKit'
+pod 'RxBluetoothKit_Airthings'
 ```
 Then, run the following command:
 `$ pod install`
 
 ## Carthage
 
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
-To integrate RxBluetoothKit into your Xcode project using Carthage  specify it in your `Cartfile`:
+#### FYI: Carthage has some issues with Xcode 12 or later. Therefore it is not supported properly. Always welcome developers to fix it.
+
+~[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+To integrate RxBluetoothKit into your Xcode project using Carthage  specify it in your `Cartfile`:~
 ```swift
 github "Polidea/RxBluetoothKit"
 ```
-Then, run `carthage update` to build framework and drag `RxBluetoothKit.framework` into your Xcode project.
+~Then, run `carthage update` to build framework and drag `RxBluetoothKit.framework` into your Xcode project.~
 
 ## Swift Package Manager
 
