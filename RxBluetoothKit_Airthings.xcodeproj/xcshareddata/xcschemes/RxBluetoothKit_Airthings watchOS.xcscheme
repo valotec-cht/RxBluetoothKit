@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1430"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0A7B27C61F9F1682003F950E"
                BuildableName = "RxBluetoothKit.framework"
-               BlueprintName = "RxBluetoothKit watchOS"
-               ReferencedContainer = "container:RxBluetoothKit.xcodeproj">
+               BlueprintName = "RxBluetoothKit_Airthings watchOS"
+               ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -47,12 +45,10 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A7B27C61F9F1682003F950E"
             BuildableName = "RxBluetoothKit.framework"
-            BlueprintName = "RxBluetoothKit watchOS"
-            ReferencedContainer = "container:RxBluetoothKit.xcodeproj">
+            BlueprintName = "RxBluetoothKit_Airthings watchOS"
+            ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -65,8 +61,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0A7B27C61F9F1682003F950E"
             BuildableName = "RxBluetoothKit.framework"
-            BlueprintName = "RxBluetoothKit watchOS"
-            ReferencedContainer = "container:RxBluetoothKit.xcodeproj">
+            BlueprintName = "RxBluetoothKit_Airthings watchOS"
+            ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

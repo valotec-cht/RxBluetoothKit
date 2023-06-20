@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,7 +28,7 @@
 		0A7B27E91F9F177A003F950E /* DeviceIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26509A761CC1270100EBA319 /* DeviceIdentifiers.swift */; };
 		0A7B27EA1F9F177A003F950E /* Peripheral+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26509A781CC1275E00EBA319 /* Peripheral+Convenience.swift */; };
 		0A7B27ED1F9F177C003F950E /* Descriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C121CBE3DEE005DEA5B /* Descriptor.swift */; };
-		0A7B27FC1F9F190F003F950E /* RxBluetoothKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7B27F31F9F190F003F950E /* RxBluetoothKit.framework */; };
+		0A7B27FC1F9F190F003F950E /* RxBluetoothKit_Airthings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7B27F31F9F190F003F950E /* RxBluetoothKit_Airthings.framework */; };
 		0A7B28141F9F1964003F950E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2666FD0B1CCE431B005E81CE /* Utilities.swift */; };
 		0A7B28151F9F1AE1003F950E /* RxBluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2666FCEE1CCE42A5005E81CE /* RxBluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A7B28181F9F1B05003F950E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7B28171F9F1B05003F950E /* RxSwift.framework */; };
@@ -175,9 +175,9 @@
 		1DCA1EF52028680D0090D14E /* CharacteristicNotificationManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA1EF42028680D0090D14E /* CharacteristicNotificationManagerTest.swift */; };
 		1DCA1EF62028680D0090D14E /* CharacteristicNotificationManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA1EF42028680D0090D14E /* CharacteristicNotificationManagerTest.swift */; };
 		1DCA1EF72028680D0090D14E /* CharacteristicNotificationManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA1EF42028680D0090D14E /* CharacteristicNotificationManagerTest.swift */; };
-		2666FD8E1CCE457C005E81CE /* RxBluetoothKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FD841CCE457C005E81CE /* RxBluetoothKit.framework */; };
+		2666FD8E1CCE457C005E81CE /* RxBluetoothKit_Airthings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FD841CCE457C005E81CE /* RxBluetoothKit_Airthings.framework */; };
 		2666FD9D1CCE45E3005E81CE /* RxBluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2666FCEE1CCE42A5005E81CE /* RxBluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2666FDAD1CCE4626005E81CE /* RxBluetoothKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FDA31CCE4626005E81CE /* RxBluetoothKit.framework */; };
+		2666FDAD1CCE4626005E81CE /* RxBluetoothKit_Airthings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2666FDA31CCE4626005E81CE /* RxBluetoothKit_Airthings.framework */; };
 		2666FDD81CCE46E1005E81CE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2666FD0B1CCE431B005E81CE /* Utilities.swift */; };
 		2666FDDE1CCE46E2005E81CE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2666FD0B1CCE431B005E81CE /* Utilities.swift */; };
 		2666FE171CCE4731005E81CE /* Descriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1299C121CBE3DEE005DEA5B /* Descriptor.swift */; };
@@ -336,10 +336,10 @@
 /* Begin PBXFileReference section */
 		0A20F00F1DB4C01C00A1A805 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/Mac/RxTest.framework; sourceTree = SOURCE_ROOT; };
 		0A20F0111DB4C02B00A1A805 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = SOURCE_ROOT; };
-		0A7B27C71F9F1682003F950E /* RxBluetoothKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7B27C71F9F1682003F950E /* RxBluetoothKit_Airthings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit_Airthings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7B27D01F9F1710003F950E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/watchOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
-		0A7B27F31F9F190F003F950E /* RxBluetoothKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A7B27FB1F9F190F003F950E /* RxBluetoothKit tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxBluetoothKit tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7B27F31F9F190F003F950E /* RxBluetoothKit_Airthings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit_Airthings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7B27FB1F9F190F003F950E /* RxBluetoothKit_Airthings tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxBluetoothKit_Airthings tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7B28171F9F1B05003F950E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/tvOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		0A7B28371F9F1C3C003F950E /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/tvOS/RxTest.framework; sourceTree = SOURCE_ROOT; };
 		0A7B28381F9F1C3C003F950E /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = SOURCE_ROOT; };
@@ -392,10 +392,10 @@
 		2666FCEE1CCE42A5005E81CE /* RxBluetoothKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxBluetoothKit.h; path = Source/RxBluetoothKit.h; sourceTree = "<group>"; };
 		2666FD061CCE430F005E81CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2666FD0B1CCE431B005E81CE /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		2666FD841CCE457C005E81CE /* RxBluetoothKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2666FD8D1CCE457C005E81CE /* RxBluetoothKit iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxBluetoothKit iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2666FDA31CCE4626005E81CE /* RxBluetoothKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2666FDAC1CCE4626005E81CE /* RxBluetoothKit macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxBluetoothKit macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2666FD841CCE457C005E81CE /* RxBluetoothKit_Airthings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit_Airthings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2666FD8D1CCE457C005E81CE /* RxBluetoothKit_Airthings iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxBluetoothKit_Airthings iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2666FDA31CCE4626005E81CE /* RxBluetoothKit_Airthings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBluetoothKit_Airthings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2666FDAC1CCE4626005E81CE /* RxBluetoothKit_Airthings macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxBluetoothKit_Airthings macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2666FE5A1CCE65CD005E81CE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		2666FE5E1CCE65EE005E81CE /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		26EF38C81D86EE1F00F9F468 /* BluetoothState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothState.swift; sourceTree = "<group>"; };
@@ -461,7 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7B283D1F9F1C71003F950E /* RxSwift.framework in Frameworks */,
-				0A7B27FC1F9F190F003F950E /* RxBluetoothKit.framework in Frameworks */,
+				0A7B27FC1F9F190F003F950E /* RxBluetoothKit_Airthings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +478,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10F29AD1CDCD98400593284 /* RxSwift.framework in Frameworks */,
-				2666FD8E1CCE457C005E81CE /* RxBluetoothKit.framework in Frameworks */,
+				2666FD8E1CCE457C005E81CE /* RxBluetoothKit_Airthings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,7 +494,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2666FDAD1CCE4626005E81CE /* RxBluetoothKit.framework in Frameworks */,
+				2666FDAD1CCE4626005E81CE /* RxBluetoothKit_Airthings.framework in Frameworks */,
 				A10F29B01CDCD99900593284 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -805,13 +805,13 @@
 		A1299BBE1CBE3D52005DEA5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2666FD841CCE457C005E81CE /* RxBluetoothKit.framework */,
-				2666FD8D1CCE457C005E81CE /* RxBluetoothKit iOSTests.xctest */,
-				2666FDA31CCE4626005E81CE /* RxBluetoothKit.framework */,
-				2666FDAC1CCE4626005E81CE /* RxBluetoothKit macOSTests.xctest */,
-				0A7B27C71F9F1682003F950E /* RxBluetoothKit.framework */,
-				0A7B27F31F9F190F003F950E /* RxBluetoothKit.framework */,
-				0A7B27FB1F9F190F003F950E /* RxBluetoothKit tvOSTests.xctest */,
+				2666FD841CCE457C005E81CE /* RxBluetoothKit_Airthings.framework */,
+				2666FD8D1CCE457C005E81CE /* RxBluetoothKit_Airthings iOSTests.xctest */,
+				2666FDA31CCE4626005E81CE /* RxBluetoothKit_Airthings.framework */,
+				2666FDAC1CCE4626005E81CE /* RxBluetoothKit_Airthings macOSTests.xctest */,
+				0A7B27C71F9F1682003F950E /* RxBluetoothKit_Airthings.framework */,
+				0A7B27F31F9F190F003F950E /* RxBluetoothKit_Airthings.framework */,
+				0A7B27FB1F9F190F003F950E /* RxBluetoothKit_Airthings tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -888,9 +888,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0A7B27C61F9F1682003F950E /* RxBluetoothKit watchOS */ = {
+		0A7B27C61F9F1682003F950E /* RxBluetoothKit_Airthings watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A7B27CE1F9F1682003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit watchOS" */;
+			buildConfigurationList = 0A7B27CE1F9F1682003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings watchOS" */;
 			buildPhases = (
 				0A7B27C21F9F1682003F950E /* Sources */,
 				0A7B27C31F9F1682003F950E /* Frameworks */,
@@ -902,14 +902,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxBluetoothKit watchOS";
+			name = "RxBluetoothKit_Airthings watchOS";
 			productName = RxBluetoothKit;
-			productReference = 0A7B27C71F9F1682003F950E /* RxBluetoothKit.framework */;
+			productReference = 0A7B27C71F9F1682003F950E /* RxBluetoothKit_Airthings.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0A7B27F21F9F190F003F950E /* RxBluetoothKit tvOS */ = {
+		0A7B27F21F9F190F003F950E /* RxBluetoothKit_Airthings tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A7B28041F9F190F003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit tvOS" */;
+			buildConfigurationList = 0A7B28041F9F190F003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings tvOS" */;
 			buildPhases = (
 				0A7B27EE1F9F190F003F950E /* Sources */,
 				0A7B27EF1F9F190F003F950E /* Frameworks */,
@@ -921,14 +921,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxBluetoothKit tvOS";
+			name = "RxBluetoothKit_Airthings tvOS";
 			productName = RxBluetoothKit;
-			productReference = 0A7B27F31F9F190F003F950E /* RxBluetoothKit.framework */;
+			productReference = 0A7B27F31F9F190F003F950E /* RxBluetoothKit_Airthings.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0A7B27FA1F9F190F003F950E /* RxBluetoothKit tvOSTests */ = {
+		0A7B27FA1F9F190F003F950E /* RxBluetoothKit_Airthings tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A7B28071F9F190F003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit tvOSTests" */;
+			buildConfigurationList = 0A7B28071F9F190F003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings tvOSTests" */;
 			buildPhases = (
 				0A7B27F71F9F190F003F950E /* Sources */,
 				0A7B27F81F9F190F003F950E /* Frameworks */,
@@ -939,14 +939,14 @@
 			dependencies = (
 				0A7B27FE1F9F190F003F950E /* PBXTargetDependency */,
 			);
-			name = "RxBluetoothKit tvOSTests";
+			name = "RxBluetoothKit_Airthings tvOSTests";
 			productName = RxBluetoothKitTests;
-			productReference = 0A7B27FB1F9F190F003F950E /* RxBluetoothKit tvOSTests.xctest */;
+			productReference = 0A7B27FB1F9F190F003F950E /* RxBluetoothKit_Airthings tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2666FD831CCE457C005E81CE /* RxBluetoothKit iOS */ = {
+		2666FD831CCE457C005E81CE /* RxBluetoothKit_Airthings iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2666FD951CCE457C005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit iOS" */;
+			buildConfigurationList = 2666FD951CCE457C005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings iOS" */;
 			buildPhases = (
 				2666FD7F1CCE457C005E81CE /* Sources */,
 				2666FD801CCE457C005E81CE /* Frameworks */,
@@ -960,14 +960,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxBluetoothKit iOS";
+			name = "RxBluetoothKit_Airthings iOS";
 			productName = "RxBluetoothKit iOS";
-			productReference = 2666FD841CCE457C005E81CE /* RxBluetoothKit.framework */;
+			productReference = 2666FD841CCE457C005E81CE /* RxBluetoothKit_Airthings.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2666FD8C1CCE457C005E81CE /* RxBluetoothKit iOSTests */ = {
+		2666FD8C1CCE457C005E81CE /* RxBluetoothKit_Airthings iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2666FD981CCE457C005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit iOSTests" */;
+			buildConfigurationList = 2666FD981CCE457C005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings iOSTests" */;
 			buildPhases = (
 				2666FD891CCE457C005E81CE /* Sources */,
 				2666FD8A1CCE457C005E81CE /* Frameworks */,
@@ -980,14 +980,14 @@
 			dependencies = (
 				2666FD901CCE457C005E81CE /* PBXTargetDependency */,
 			);
-			name = "RxBluetoothKit iOSTests";
+			name = "RxBluetoothKit_Airthings iOSTests";
 			productName = "RxBluetoothKit iOSTests";
-			productReference = 2666FD8D1CCE457C005E81CE /* RxBluetoothKit iOSTests.xctest */;
+			productReference = 2666FD8D1CCE457C005E81CE /* RxBluetoothKit_Airthings iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2666FDA21CCE4626005E81CE /* RxBluetoothKit macOS */ = {
+		2666FDA21CCE4626005E81CE /* RxBluetoothKit_Airthings macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2666FDB41CCE4626005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit macOS" */;
+			buildConfigurationList = 2666FDB41CCE4626005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings macOS" */;
 			buildPhases = (
 				2666FD9E1CCE4626005E81CE /* Sources */,
 				2666FD9F1CCE4626005E81CE /* Frameworks */,
@@ -999,14 +999,14 @@
 			);
 			dependencies = (
 			);
-			name = "RxBluetoothKit macOS";
+			name = "RxBluetoothKit_Airthings macOS";
 			productName = "RxBluetoothKit OSX";
-			productReference = 2666FDA31CCE4626005E81CE /* RxBluetoothKit.framework */;
+			productReference = 2666FDA31CCE4626005E81CE /* RxBluetoothKit_Airthings.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2666FDAB1CCE4626005E81CE /* RxBluetoothKit macOSTests */ = {
+		2666FDAB1CCE4626005E81CE /* RxBluetoothKit_Airthings macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2666FDB71CCE4626005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit macOSTests" */;
+			buildConfigurationList = 2666FDB71CCE4626005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings macOSTests" */;
 			buildPhases = (
 				2666FDA81CCE4626005E81CE /* Sources */,
 				2666FDA91CCE4626005E81CE /* Frameworks */,
@@ -1018,9 +1018,9 @@
 			dependencies = (
 				2666FDAF1CCE4626005E81CE /* PBXTargetDependency */,
 			);
-			name = "RxBluetoothKit macOSTests";
+			name = "RxBluetoothKit_Airthings macOSTests";
 			productName = "RxBluetoothKit OSXTests";
-			productReference = 2666FDAC1CCE4626005E81CE /* RxBluetoothKit macOSTests.xctest */;
+			productReference = 2666FDAC1CCE4626005E81CE /* RxBluetoothKit_Airthings macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1029,8 +1029,9 @@
 		A1299BB41CBE3D52005DEA5B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = Polidea;
 				TargetAttributes = {
 					0A7B27C61F9F1682003F950E = {
@@ -1063,7 +1064,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A1299BB71CBE3D52005DEA5B /* Build configuration list for PBXProject "RxBluetoothKit" */;
+			buildConfigurationList = A1299BB71CBE3D52005DEA5B /* Build configuration list for PBXProject "RxBluetoothKit_Airthings" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1076,13 +1077,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2666FD831CCE457C005E81CE /* RxBluetoothKit iOS */,
-				2666FD8C1CCE457C005E81CE /* RxBluetoothKit iOSTests */,
-				2666FDA21CCE4626005E81CE /* RxBluetoothKit macOS */,
-				2666FDAB1CCE4626005E81CE /* RxBluetoothKit macOSTests */,
-				0A7B27C61F9F1682003F950E /* RxBluetoothKit watchOS */,
-				0A7B27F21F9F190F003F950E /* RxBluetoothKit tvOS */,
-				0A7B27FA1F9F190F003F950E /* RxBluetoothKit tvOSTests */,
+				2666FD831CCE457C005E81CE /* RxBluetoothKit_Airthings iOS */,
+				2666FD8C1CCE457C005E81CE /* RxBluetoothKit_Airthings iOSTests */,
+				2666FDA21CCE4626005E81CE /* RxBluetoothKit_Airthings macOS */,
+				2666FDAB1CCE4626005E81CE /* RxBluetoothKit_Airthings macOSTests */,
+				0A7B27C61F9F1682003F950E /* RxBluetoothKit_Airthings watchOS */,
+				0A7B27F21F9F190F003F950E /* RxBluetoothKit_Airthings tvOS */,
+				0A7B27FA1F9F190F003F950E /* RxBluetoothKit_Airthings tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1520,17 +1521,17 @@
 /* Begin PBXTargetDependency section */
 		0A7B27FE1F9F190F003F950E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A7B27F21F9F190F003F950E /* RxBluetoothKit tvOS */;
+			target = 0A7B27F21F9F190F003F950E /* RxBluetoothKit_Airthings tvOS */;
 			targetProxy = 0A7B27FD1F9F190F003F950E /* PBXContainerItemProxy */;
 		};
 		2666FD901CCE457C005E81CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2666FD831CCE457C005E81CE /* RxBluetoothKit iOS */;
+			target = 2666FD831CCE457C005E81CE /* RxBluetoothKit_Airthings iOS */;
 			targetProxy = 2666FD8F1CCE457C005E81CE /* PBXContainerItemProxy */;
 		};
 		2666FDAF1CCE4626005E81CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2666FDA21CCE4626005E81CE /* RxBluetoothKit macOS */;
+			target = 2666FDA21CCE4626005E81CE /* RxBluetoothKit_Airthings macOS */;
 			targetProxy = 2666FDAE1CCE4626005E81CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1550,6 +1551,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
@@ -1557,9 +1559,15 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-watchOS";
-				PRODUCT_NAME = RxBluetoothKit;
+				PRODUCT_NAME = RxBluetoothKit_Airthings;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1583,6 +1591,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/watchOS",
@@ -1590,9 +1599,15 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-watchOS";
-				PRODUCT_NAME = RxBluetoothKit;
+				PRODUCT_NAME = RxBluetoothKit_Airthings;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1615,6 +1630,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
@@ -1622,9 +1638,15 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-tvOS";
-				PRODUCT_NAME = RxBluetoothKit;
+				PRODUCT_NAME = RxBluetoothKit_Airthings;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1648,6 +1670,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
@@ -1655,9 +1678,15 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-tvOS";
-				PRODUCT_NAME = RxBluetoothKit;
+				PRODUCT_NAME = RxBluetoothKit_Airthings;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1675,6 +1704,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6GHZHRUCU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
@@ -1682,7 +1712,12 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-tvOS.RxBluetoothKitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -1702,6 +1737,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6GHZHRUCU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
@@ -1709,7 +1745,12 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-tvOS.RxBluetoothKitTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -1728,6 +1769,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1736,9 +1778,15 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-iOS";
-				PRODUCT_NAME = RxBluetoothKit;
+				PRODUCT_NAME = RxBluetoothKit_Airthings;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -1753,6 +1801,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -1761,9 +1810,15 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-iOS";
-				PRODUCT_NAME = RxBluetoothKit;
+				PRODUCT_NAME = RxBluetoothKit_Airthings;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -1772,13 +1827,19 @@
 		2666FD991CCE457C005E81CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P6GHZHRUCU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1788,13 +1849,19 @@
 		2666FD9A1CCE457C005E81CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P6GHZHRUCU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1812,6 +1879,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -1819,10 +1887,16 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-macOS";
-				PRODUCT_NAME = RxBluetoothKit;
+				PRODUCT_NAME = RxBluetoothKit_Airthings;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1840,6 +1914,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
@@ -1847,10 +1922,16 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-macOS";
-				PRODUCT_NAME = RxBluetoothKit;
+				PRODUCT_NAME = RxBluetoothKit_Airthings;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1869,7 +1950,12 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1890,7 +1976,12 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.polidea.RxBluetoothKit-OSXTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1934,6 +2025,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1951,6 +2043,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1997,6 +2091,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				ENABLE_MODULE_VERIFIER = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2008,9 +2103,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2022,7 +2120,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A7B27CE1F9F1682003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit watchOS" */ = {
+		0A7B27CE1F9F1682003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A7B27CC1F9F1682003F950E /* Debug */,
@@ -2031,7 +2129,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A7B28041F9F190F003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit tvOS" */ = {
+		0A7B28041F9F190F003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A7B28051F9F190F003F950E /* Debug */,
@@ -2040,7 +2138,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A7B28071F9F190F003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit tvOSTests" */ = {
+		0A7B28071F9F190F003F950E /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A7B28081F9F190F003F950E /* Debug */,
@@ -2049,7 +2147,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2666FD951CCE457C005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit iOS" */ = {
+		2666FD951CCE457C005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2666FD961CCE457C005E81CE /* Debug */,
@@ -2058,7 +2156,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2666FD981CCE457C005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit iOSTests" */ = {
+		2666FD981CCE457C005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2666FD991CCE457C005E81CE /* Debug */,
@@ -2067,7 +2165,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2666FDB41CCE4626005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit macOS" */ = {
+		2666FDB41CCE4626005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2666FDB51CCE4626005E81CE /* Debug */,
@@ -2076,7 +2174,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2666FDB71CCE4626005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit macOSTests" */ = {
+		2666FDB71CCE4626005E81CE /* Build configuration list for PBXNativeTarget "RxBluetoothKit_Airthings macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2666FDB81CCE4626005E81CE /* Debug */,
@@ -2085,7 +2183,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1299BB71CBE3D52005DEA5B /* Build configuration list for PBXProject "RxBluetoothKit" */ = {
+		A1299BB71CBE3D52005DEA5B /* Build configuration list for PBXProject "RxBluetoothKit_Airthings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1299BCF1CBE3D52005DEA5B /* Debug */,
