@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Airthings/RxBluetoothKit.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "d974f132ff6b8c845913d9a01c2a5f14ac353001"
+        "revision" : "f6ecae04fe124cc88eb2e59dc5ca3a5ce0489bcf",
+        "version" : "6.2.0"
       }
     },
     {

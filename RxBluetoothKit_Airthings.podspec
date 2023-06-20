@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "RxBluetoothKit_Airthings"
-  s.version          = "6.2.0"
-  s.summary          = "Bluetooth library for RxSwift"
+  s.version          = "6.3.0"
+  s.summary          = "Bluetooth library for RxSwift (initially built by Polidea)"
 
   s.description      = <<-DESC
   RxBluetoothKit is lightweight and easy to use Rx support for CoreBluetooth. 

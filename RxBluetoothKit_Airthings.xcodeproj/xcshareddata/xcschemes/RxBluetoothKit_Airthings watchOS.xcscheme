@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1430"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A7B27F21F9F190F003F950E"
-               BuildableName = "RxBluetoothKit.framework"
-               BlueprintName = "RxBluetoothKit tvOS"
-               ReferencedContainer = "container:RxBluetoothKit.xcodeproj">
+               BlueprintIdentifier = "D33F324D2A41CA8A00DBDD0B"
+               BuildableName = "RxBluetoothKit_Airthings_watchOS.framework"
+               BlueprintName = "RxBluetoothKit_Airthings watchOS"
+               ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,28 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A7B27FA1F9F190F003F950E"
-               BuildableName = "RxBluetoothKit tvOSTests.xctest"
-               BlueprintName = "RxBluetoothKit tvOSTests"
-               ReferencedContainer = "container:RxBluetoothKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A7B27F21F9F190F003F950E"
-            BuildableName = "RxBluetoothKit.framework"
-            BlueprintName = "RxBluetoothKit tvOS"
-            ReferencedContainer = "container:RxBluetoothKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -64,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A7B27F21F9F190F003F950E"
-            BuildableName = "RxBluetoothKit.framework"
-            BlueprintName = "RxBluetoothKit tvOS"
-            ReferencedContainer = "container:RxBluetoothKit.xcodeproj">
+            BlueprintIdentifier = "D33F324D2A41CA8A00DBDD0B"
+            BuildableName = "RxBluetoothKit_Airthings_watchOS.framework"
+            BlueprintName = "RxBluetoothKit_Airthings watchOS"
+            ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -82,10 +59,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A7B27F21F9F190F003F950E"
-            BuildableName = "RxBluetoothKit.framework"
-            BlueprintName = "RxBluetoothKit tvOS"
-            ReferencedContainer = "container:RxBluetoothKit.xcodeproj">
+            BlueprintIdentifier = "D33F324D2A41CA8A00DBDD0B"
+            BuildableName = "RxBluetoothKit_Airthings_watchOS.framework"
+            BlueprintName = "RxBluetoothKit_Airthings watchOS"
+            ReferencedContainer = "container:RxBluetoothKit_Airthings.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
