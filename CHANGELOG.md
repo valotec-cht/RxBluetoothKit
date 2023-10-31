@@ -1,3 +1,12 @@
+# 6.3.2
+- Fix 6.3.1 release
+
+# 6.3.1
+- Added support for Support Xcode 15
+
+# 6.3.0
+- Support for RxSwift 6.5.0
+
 # 6.2.0
 - Updated RxSwift to version 6.5
 
