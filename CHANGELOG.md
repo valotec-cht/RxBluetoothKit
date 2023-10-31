@@ -1,3 +1,6 @@
+# 6.3.2
+- Fix 6.3.1 release
+
 # 6.3.1
 - Added support for Support Xcode 15
 
